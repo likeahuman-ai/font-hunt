@@ -14,7 +14,18 @@ Every run produces two artefacts:
 
 1. **A premium HTML specimen board** — editorial layout in the tradition of Klim / OH no Type / Grilli Type specimen sites. Massive type renderings at 180px, generous whitespace, off-white canvas, navy accent, Dutch/European glyph sampler, click-to-copy CSS, `J` / `K` keyboard nav. Saved to `~/.claude/font-hunt-results/`.
 
-2. **A structured YAML brief** printed to chat — font names, foundries, URLs, licensing tier, `@font-face` snippets, pairing rationale. Downstream skills and agents (`typography-creative-director`, `/frontend-design`, `/ai-branding-pitch`) consume this so they don't fall back to training-data defaults.
+2. **A structured YAML brief** printed to chat — font names, foundries, URLs, licensing tier, `@font-face` snippets, pairing rationale. Downstream skills and agents (`/frontend-design`, `/brand-pitch`, `/high-end-visual-design`) consume this so they don't fall back to training-data defaults.
+
+---
+
+## Works with Claude Design (claude.ai/design)
+
+[Claude Design](https://claude.ai/design) (Anthropic Labs) is a separate product for conversational visual design + prototyping. `font-hunt` complements it in two directions:
+
+- **Before a design session** — run `/font-hunt` in Claude Code first, feed the structured YAML output into your Claude Design conversation as brand context. The design that gets generated will use *your* font choices, not the default system stack.
+- **During implementation of a Claude Design handoff bundle** — when you bring a `.zip` or implementation bundle from claude.ai/design into Claude Code to build production code, `/font-hunt` can lock the fonts before `/frontend-design` generates the final page. Especially useful if the Claude Design prototype used placeholder fonts that need upgrading.
+
+Claude Design doesn't currently expose a public plugin API, so `font-hunt` runs in Claude Code (CLI, web app, IDE extensions) — the same surface where Claude Design handoffs land.
 
 ---
 

@@ -2,6 +2,17 @@
 
 All notable changes to `font-hunt` will be documented in this file.
 
+## [1.1.0] — 2026-04-21
+
+Claude Design compatibility + modern skill schema.
+
+### Added
+- **`when_to_use` frontmatter field** following the latest Agent Skills schema — better automatic triggering by Claude, especially for natural-language prompts that don't say the word "font".
+- **Claude Design (claude.ai/design) interop section in README.** `font-hunt` is now explicitly documented as a pre-design (feed font choices into Claude Design as context) or implementation-time (lock fonts before building a Claude Design handoff bundle) complement. No native plugin API on claude.ai/design yet — this skill runs in Claude Code which is the surface where handoffs land.
+
+### Changed
+- Updated downstream-consumer references in README: now mentions `/brand-pitch` (our sister plugin) instead of the old internal `/ai-branding-pitch` skill.
+
 ## [1.0.0] — 2026-04-20
 
 Initial release.
