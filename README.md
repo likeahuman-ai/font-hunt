@@ -2,7 +2,7 @@
 
 > A Claude Code plugin that researches **genuinely unique fonts** from real indie foundries — and refuses to return Inter, Montserrat, Poppins, Roboto, Playfair Display, DM Sans, Satoshi, Clash Display, or any of the other fonts every AI tool keeps serving up.
 
-**Built by [likeahuman.ai](https://likeahuman.ai).**
+**Built by [likeahuman.ai](https://likeahuman.ai)** — Stefan Staats, Jasper Staats, Tim Weeda.
 
 ---
 
