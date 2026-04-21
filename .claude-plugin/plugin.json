@@ -1,7 +1,7 @@
 {
   "name": "font-hunt",
   "description": "Research and propose genuinely unique fonts for a brand or project. Refuses generic AI defaults (Inter, Montserrat, Poppins, Roboto, Playfair, DM Sans, Satoshi, Clash Display). Dispatches 5 parallel research agents against real foundries (Fontshare, Velvetyne, Pangram Pangram, Klim, Grilli, OH no Type, 1001fonts, DaFont, Google Fonts gems, Adobe Fonts) and produces a premium HTML specimen board plus a structured YAML brief that downstream agents/skills consume.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "LikeAHuman.ai",
     "email": "academy@likeahuman.ai",
@@ -21,6 +21,5 @@
     "anti-slop",
     "claude-design"
   ],
-  "skills": "./skills/",
-  "agents": "./agents/"
+  "skills": "./skills/"
 }
