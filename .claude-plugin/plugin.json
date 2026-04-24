@@ -1,7 +1,7 @@
 {
   "name": "font-hunt",
   "version": "1.1.1",
-  "description": "Research genuinely unique fonts from real indie foundries — refuses AI defaults. Dispatches 5 parallel research agents, outputs HTML specimen board + YAML brief.",
+  "description": "Research unique fonts from real indie foundries",
   "author": {
     "name": "LikeAHuman.ai",
     "email": "academy@likeahuman.ai",
